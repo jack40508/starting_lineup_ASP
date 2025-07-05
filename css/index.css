@@ -1,0 +1,33 @@
+@keyframes fadeDrop {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-drop-in {
+	animation: fadeDrop 0.4s ease-out forwards;
+	display: flex !important; /* Bootstrap 用 */
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 3px;
+	color: #174988;
+}
+
+.title-kanji {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-family: 'Anton', 'Noto Sans JP', sans-serif;
+	letter-spacing: 3px;
+	color: #174988;
+}
